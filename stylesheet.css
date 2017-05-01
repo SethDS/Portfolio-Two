@@ -1,12 +1,67 @@
 body {
     margin: 0;
+    background-color: #15161e;
 }
 
 .main-container{
+    margin: 5px;
     position: absolute;
-    height: 200%;
+    height: 150%;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #15161e;
+    border: 1px solid white;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.nav-item{
+    color: white;
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-left: 150px;
+}
+.david{
+    color: #65626b;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: x-large;
+}
+.footer-item{
+    margin-left: 100px;
+}
+
+
+.port-container{
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.port-project{
+    height: 1000px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    margin-bottom: 100px;
 }

@@ -3,4 +3,24 @@
  */
 angular.module('myApp').controller('portCtrl', function($scope, mainService){
 
+    $scope.projects = [
+        {
+            name: 'VentureBound'
+        },
+        {
+            name: 'VentureBound'
+        },
+        {
+            name: 'VentureBound'
+        },
+        {
+            name: 'VentureBound'
+        },
+        {
+            name: 'VentureBound'
+        },
+        {
+            name: 'VentureBound'
+        }
+    ]
 });
