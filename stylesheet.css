@@ -21,16 +21,24 @@ body {
     height: 10%;
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 5px;
 }
 .nav-item{
     color: white;
     text-transform: uppercase;
-    font-size: xx-large;
+    font-size: large;
     margin-left: 150px;
+}
+.nav-name{
+    margin-left: 50px;
 }
 .david{
     color: #65626b;
+}
+.nav-hover:hover {
+    cursor: pointer;
 }
 
 .footer{
@@ -42,6 +50,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     font-size: x-large;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .footer-item{
     margin-left: 100px;
@@ -59,9 +68,41 @@ body {
 }
 
 .port-project{
+    position: relative;
     height: 1000px;
     width: 600px;
     background-color: white;
     color: black;
     margin-bottom: 100px;
+    padding: -5px;
+    transition-duration: .5s;
+}
+.port-project:hover {
+    background-color: #15161e;
+    color: white;
+}
+.port-project:hover > .port-project-inner{
+    border: 1px solid white;
+}
+.port-project-inner{
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 99%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+.port-project-stack{
+    position: absolute;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: x-large;
+    bottom: 100px;
+}
+.port-project-name{
+    margin-top: 300px;
+    font-family: 'Belleza', sans-serif;
+    font-size: 4rem;
 }

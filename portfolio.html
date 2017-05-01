@@ -1,7 +1,15 @@
 <div class="port-container">
 
     <div class="port-project" ng-repeat="project in projects">
-        <p>{{project.name}}</p>
+        <div class="port-project-inner">
+
+            <p class="port-project-name">{{project.name}}</p>
+
+            <div class="port-project-stack">
+                <p>{{project.stack}}</p>
+                <p>{{}}</p>
+            </div>
+        </div>
     </div>
 
 

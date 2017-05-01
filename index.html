@@ -2,16 +2,15 @@
 <html ng-app="myApp">
 <head>
     <link rel="stylesheet" href="stylesheet.css">
-    <title>
-        Portfolio | SethDS
+    <link href="https://fonts.googleapis.com/css?family=Belleza|Julius+Sans+One|Maven+Pro" rel="stylesheet">        Portfolio | SethDS
     </title>
 </head>
 <body ng-controller="mainCtrl">
 <div class="main-container">
     <div class="nav">
-        <div class="nav-item"><p>seth<span class="david">david</span> sutherland</p></div>
-        <div class="nav-item"><p>portfolio</p></div>
-        <div class="nav-item"><p>about</p></div>
+        <div class="nav-item nav-name"><p>seth<span class="david">david</span> sutherland</p></div>
+        <div class="nav-item nav-hover" ui-sref="portfolio"><p>portfolio</p></div>
+        <div class="nav-item nav-hover" ui-sref="about"><p>about</p></div>
     </div>
         <ui-view></ui-view>
     <div class="footer">

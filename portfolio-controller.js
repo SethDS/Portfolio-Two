@@ -5,22 +5,28 @@ angular.module('myApp').controller('portCtrl', function($scope, mainService){
 
     $scope.projects = [
         {
-            name: 'VentureBound'
+            name: 'VentureBound',
+            stack: 'Full Stack'
         },
         {
-            name: 'VentureBound'
+            name: 'Top Secret',
+            stack: 'Front End'
         },
         {
-            name: 'VentureBound'
+            name: 'VentureBound',
+            stack: 'Front End'
         },
         {
-            name: 'VentureBound'
+            name: 'VentureBound',
+            stack: 'Front End'
         },
         {
-            name: 'VentureBound'
+            name: 'VentureBound',
+            stack: 'Front End'
         },
         {
-            name: 'VentureBound'
+            name: 'VentureBound',
+            stack: 'Front End'
         }
     ]
 });
