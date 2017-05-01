@@ -3,30 +3,5 @@
  */
 angular.module('myApp').controller('portCtrl', function($scope, mainService){
 
-    $scope.projects = [
-        {
-            name: 'VentureBound',
-            stack: 'Full Stack'
-        },
-        {
-            name: 'Top Secret',
-            stack: 'Front End'
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End'
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End'
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End'
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End'
-        }
-    ]
+    $scope.projects = mainService.projects;
 });

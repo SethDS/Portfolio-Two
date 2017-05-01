@@ -1,13 +1,12 @@
 <div class="port-container">
 
-    <div class="port-project" ng-repeat="project in projects">
-        <div class="port-project-inner">
+    <div class="port-project" ng-repeat="proj in projects">
+        <div class="port-project-inner" ui-sref='project({id: proj.id})'>
 
-            <p class="port-project-name">{{project.name}}</p>
+            <p class="port-project-name">{{proj.name}}</p>
 
             <div class="port-project-stack">
-                <p>{{project.stack}}</p>
-                <p>{{}}</p>
+                <p>{{proj.stack}}</p>
             </div>
         </div>
     </div>

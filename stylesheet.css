@@ -106,3 +106,10 @@ body {
     font-family: 'Belleza', sans-serif;
     font-size: 4rem;
 }
+
+.project-container{
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    left: 20%;
+}
