@@ -3,11 +3,8 @@
  */
 angular.module('myApp').service('mainService', function(){
 
-    var service = this;
-
     this.getProject = function(id){
-      return service.project[id - 1];
-        console.log(id);
+        return this.projects[id -1];
     };
 
     this.projects = [
