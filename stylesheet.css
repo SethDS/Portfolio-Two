@@ -2,6 +2,9 @@ body {
     margin: 0;
     background-color: #15161e;
 }
+ul{
+    list-style: none;
+}
 
 .main-container{
     margin: 5px;
@@ -120,6 +123,7 @@ body {
     position: absolute;
     top: 10%;
     width: 60%;
+    height: 100%;
     left: 20%;
     background-color: white;
     display: flex;
@@ -131,7 +135,8 @@ body {
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
     letter-spacing: 10px;
-    position: relative;
+    position: absolute;
+    top: 0;
     width: 100%;
     background-color: #15161e;
     color: white;
@@ -152,15 +157,69 @@ body {
 .about-me{
     margin-top: 100px;
     text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: sans-serif;
 }
 .about-me-header{
     font-size: 4rem;
     letter-spacing: 10px;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .about-me-more{
     font-size: x-large;
-    text-transform: lowercase;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+.about-skills{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+.skills-header{
+    font-size: 4rem;
+    letter-spacing: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.skills-heading{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 7px;
+    margin-left: 50px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.skills-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.skills li{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.about-contact{
+    margin-top: 100px;
+}
+.contact-header{
+    font-size: 4rem;
+    letter-spacing: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.contact-content-container{
+    text-align: center;
+}
+.contact-content{
+    font-family: 'Belleza', sans-serif;
+    font-size: larger;
 }
 
 .about-pic-pic{
@@ -168,5 +227,5 @@ body {
     width: 700px;
     border-radius: 50%;
     filter: grayscale(100%);
-    margin-top: 150px;
+    margin-top: 100px;
 }
