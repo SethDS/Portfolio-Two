@@ -45,8 +45,12 @@ angular.module('myApp').service('mainService', function(){
             name: 'Top Secret',
             stack: 'Front End',
             description: "Clone of Super Top Secret's website",
-            tech: ['HTML/CSS', 'AngularJS', 'TweenMax', 'UI Router', 'FluidEffect.js', 'Custom Parallax'],
+            tech: ['HTML/CSS', 'AngularJS', 'TweenMax', 'UI Router', 'FluidEffect.js', 'Custom Parallax', 'Gulp', 'SASS'],
+            link: 'http://wearetopsecret.cf/#/',
             id: 2,
+            situation: 'A couple other developers and I wanted to see how good our front end skills were.  So we decided to clone one of the coolest sites out there: wearetopsecret.com.  The guys at Super Top Secret have put together some amazing work and we thought it would push us to really up our game to see if we could re-create it.',
+            task: 'So we put our heads together and decided we\'d each take a couple of pages.  After we decided who was responsible for what, we put together a list of tasks on Trello and got to work.  I decided to take the home page and the case studies page.  I had to figure out how on earth to get that awesome fluid effect integrated and put together a custom parallax effect for the case studies page.',
+            action: 'Right off the bat it was apparent that we would have our work cut out for us.  Several functional directives were made, custom CSS and TweenMax animations were carefully crafted, the parallax formula was concocted and then everything was carefully compiled and bundled by Gulp.',
             images: [
                 {
                     path: './images/stsHome.png'
@@ -70,26 +74,6 @@ angular.module('myApp').service('mainService', function(){
                     path: './images/csBottom.png'
                 }
             ]
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End',
-            id: 3
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End',
-            id: 4
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End',
-            id: 5
-        },
-        {
-            name: 'VentureBound',
-            stack: 'Front End',
-            id: 6
         }
     ]
 });
