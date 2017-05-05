@@ -7,6 +7,7 @@ ul{
 }
 
 a {
+    color: black;
     text-decoration: none;
 }
 
@@ -61,6 +62,7 @@ a {
 }
 .nav-name{
     margin-left: 50px;
+    cursor: pointer;
 }
 .david{
     color: #65626b;
@@ -284,7 +286,7 @@ a {
     font-family: 'Belleza', sans-serif;
     font-size: 5rem;
     text-align: center;
-    border:  1px solid white;
+    border-bottom:  1px solid white;
 }
 
 .project-heading-desc{
@@ -363,4 +365,23 @@ a {
 .project-img{
     width: 60%;
     margin-bottom: 100px;
+}
+
+.previous-project{
+    position: fixed;
+    top: 90%;
+    left: 200px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.next-project{
+    position: fixed;
+    top: 90%;
+    right: 200px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
 }

@@ -25,5 +25,15 @@ angular.module('myApp').controller('projectCtrl', function($scope, mainService, 
                 }
     };
 
+    $scope.changeProject = function(id, dir){
+       if(dir === 'next'){
+           $scope.getProject(id + 1);
+       }
+       else if(dir === 'prev'){
+            $scope.getProject(id - 1);
+       }
+    };
+
+
 
 });
