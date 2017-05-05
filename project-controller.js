@@ -13,7 +13,17 @@ angular.module('myApp').controller('projectCtrl', function($scope, mainService, 
 
     $scope.showInfo = function(){
         var star = document.getElementsByClassName('project-star');
-
-        star[0].style.display = 'inline';
+        var toggleInfo = document.getElementsByClassName('more-info');
+                if(toggleInfo[0].innerHTML === 'more info') {
+                    star[0].style.display = 'inline';
+                    toggleInfo[0].innerHTML = 'less info';
+                    return;
+                } else if(toggleInfo[0].innerHTML === 'less info'){
+                    star[0].style.display = 'none';
+                    toggleInfo[0].innerHTML = 'more info';
+                    return;
+                }
     };
+
+
 });

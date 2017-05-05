@@ -303,6 +303,7 @@ a {
     font-size: x-large;
     text-align: center;
     display: none;
+    transition-duration: .5s;
 }
 .project-star-info{
     margin-top: 25px;
