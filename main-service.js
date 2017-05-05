@@ -18,13 +18,27 @@ angular.module('myApp').service('mainService', function(){
             result:'VentureBound was the result of all of this',
             id: 1,
             images: [
-                {path: './images/Screenshot(8).png'},
-                {path: './images/Screenshot(10).png'},
-                {path: './images/Screenshot(12).png'},
-                {path: './images/Screenshot(13).png'},
-                {path: './images/Screenshot(14).png'},
-                {path: './images/Screenshot(18).png'},
-                {path: './images/Screenshot(19).png'}
+                {
+                    path: './images/home.png'
+                },
+                {
+                    path: './images/login.png'
+                },
+                {
+                    path: './images/createadv.png'
+                },
+                {
+                    path: './images/addloc.png'
+                },
+                {
+                    path: './images/uploadpic.png'
+                },
+                {
+                    path: './images/adv.png'
+                },
+                {
+                    path: './images/advpics.png'
+                }
                 ]
         },
         {
