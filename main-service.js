@@ -17,7 +17,15 @@ angular.module('myApp').service('mainService', function(){
             action: 'Throughout the development process there were many obstacles to overcome.  There was the challenge of wanting to have all my pictures in my database rather than linking to them.  I used a functional directive to allow the user to upload an image file from their own computer, then turn it into base64 and send it through a HTTP POST request to the NodeJS server and from there store it as a string in an SQL table with a unique id and a foreign key id pointing to the adventure it was associated with.  Another challenge was setting up the Google Maps API and allowing users to drop a pin on the location of their adventure and then retrieve the lat and long as the dragged the pin to adjust it.  Those coordinates were also sent to the back end and stored in the SQL database.  Retrieving all the information needed to display saved adventures required in-depth SQL queries with multiple joins.',
             result:'VentureBound was the result of all of this',
             id: 1,
-            images: []
+            images: [
+                {path: './images/Screenshot(8).png'},
+                {path: './images/Screenshot(10).png'},
+                {path: './images/Screenshot(12).png'},
+                {path: './images/Screenshot(13).png'},
+                {path: './images/Screenshot(14).png'},
+                {path: './images/Screenshot(18).png'},
+                {path: './images/Screenshot(19).png'}
+                ]
         },
         {
             name: 'Top Secret',
