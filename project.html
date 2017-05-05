@@ -12,6 +12,13 @@
             <div class="project-heading-desc">{{project.description}}</div>
         </div>
 
+
+        <div class="project-tech">
+            <div class="project-tech-info" ng-repeat="tech in project.tech">{{tech}}</div>
+
+            <p class="more-info" ng-click="showInfo()">more info</p>
+        </div>
+
         <div class="project-star">
             <div class="project-star-info">{{project.situation}}</div>
             <div class="project-star-info">{{project.task}}</div>
@@ -20,6 +27,7 @@
         </div>
 
         <div class="project-screenshots">
+            <p class="screenshots-heading">screenshots</p>
             <img class="project-img" src="{{img.path}}" ng-repeat="img in project.images">
         </div>
 

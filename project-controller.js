@@ -10,4 +10,10 @@ angular.module('myApp').controller('projectCtrl', function($scope, mainService, 
     };
 
     $scope.getProject($stateParams.id);
+
+    $scope.showInfo = function(){
+        var star = document.getElementsByClassName('project-star');
+
+        star[0].style.display = 'inline';
+    };
 });
