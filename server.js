@@ -8,6 +8,8 @@ var app = express();
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-app.listen(5051, function(){
-    console.log('listening on port 5051...')
+
+var port = process.env.PORT || 5051;
+app.listen(port, function(){
+    console.log('listening on port ' + port + '...');
 });
