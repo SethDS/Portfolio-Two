@@ -3,10 +3,11 @@
  */
 angular.module('myApp').controller('projectCtrl', function($scope, mainService, $stateParams){
 
+    $scope.projects = mainService.projects;
     $scope.project = [];
 
     $scope.getProject = function(id){
-       $scope.project =  mainService.getProject(id);
+       $scope.project =  $scope.projects[id - 1];
     };
 
     $scope.getProject($stateParams.id);
@@ -25,14 +26,7 @@ angular.module('myApp').controller('projectCtrl', function($scope, mainService, 
                 }
     };
 
-    $scope.changeProject = function(id, dir){
-       if(dir === 'next'){
-           $scope.getProject(id + 1);
-       }
-       else if(dir === 'prev'){
-            $scope.getProject(id - 1);
-       }
-    };
+
 
 
 

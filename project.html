@@ -5,8 +5,8 @@
         <div class="nav-item nav-hover" ui-sref="about"><p>about</p></div>
     </div>
 
-    <div class="next-project" ng-click="changeProject({{project.id}}, next)">next</div>
-    <div class="previous-project" changeProject="({{project.id}}, prev)">previous</div>
+    <div class="next-project" ui-sref="project({id: project.next})">next</div>
+    <div class="previous-project" ui-sref="project({id: project.prev})">previous</div>
 
     <div class="project-container">
 

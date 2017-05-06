@@ -17,6 +17,8 @@ angular.module('myApp').service('mainService', function(){
             action: 'Throughout the development process there were many obstacles to overcome.  There was the challenge of wanting to have all my pictures in my database rather than linking to them.  I used a functional directive to allow the user to upload an image file from their own computer, then turn it into base64 and send it through a HTTP POST request to the NodeJS server and from there store it as a string in an SQL table with a unique id and a foreign key id pointing to the adventure it was associated with.  Another challenge was setting up the Google Maps API and allowing users to drop a pin on the location of their adventure and then retrieve the lat and long as the dragged the pin to adjust it.  Those coordinates were also sent to the back end and stored in the SQL database.  Retrieving all the information needed to display saved adventures required in-depth SQL queries with multiple joins.',
             tech: ['HTML/CSS', 'AngularJS', 'TweenMax', 'UI Router', 'Google Maps API', 'NodeJS', 'Express', 'Massive', 'SQL'],
             id: 1,
+            next: 2,
+            prev: 1,
             images: [
                 {
                     path: './images/home.png'
@@ -48,6 +50,8 @@ angular.module('myApp').service('mainService', function(){
             tech: ['HTML/CSS', 'AngularJS', 'TweenMax', 'UI Router', 'FluidEffect.js', 'Custom Parallax', 'Gulp', 'SASS'],
             link: 'http://wearetopsecret.cf/#/',
             id: 2,
+            next: 2,
+            prev: 1,
             situation: 'A couple other developers and I wanted to see how good our front end skills were.  So we decided to clone one of the coolest sites out there: wearetopsecret.com.  The guys at Super Top Secret have put together some amazing work and we thought it would push us to really up our game to see if we could re-create it.',
             task: 'So we put our heads together and decided we\'d each take a couple of pages.  After we decided who was responsible for what, we put together a list of tasks on Trello and got to work.  I decided to take the home page and the case studies page.  I had to figure out how on earth to get that awesome fluid effect integrated and put together a custom parallax effect for the case studies page.',
             action: 'Right off the bat it was apparent that we would have our work cut out for us.  Several functional directives were made, custom CSS and TweenMax animations were carefully crafted, the parallax formula was concocted and then everything was carefully compiled and bundled by Gulp.',
