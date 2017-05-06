@@ -57,7 +57,7 @@ a {
 .nav-item{
     color: white;
     text-transform: uppercase;
-    font-size: large;
+    font-size: x-small;
     margin-left: 150px;
 }
 .nav-name{
@@ -103,8 +103,8 @@ a {
 
 .port-project{
     position: relative;
-    height: 1000px;
-    width: 600px;
+    height: 500px;
+    width: 300px;
     background-color: white;
     color: black;
     margin-bottom: 100px;
@@ -125,20 +125,20 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     height: 99%;
-    width: 99%;
+    width: 98%;
     display: flex;
     justify-content: center;
 }
 .port-project-stack{
     position: absolute;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: x-large;
+    font-size: small;
     bottom: 100px;
 }
 .port-project-name{
-    margin-top: 300px;
+    margin-top: 150px;
     font-family: 'Belleza', sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 
@@ -169,18 +169,19 @@ a {
     border-right: 1px solid white;
 }
 .about-header-main{
-    font-size: 5rem;
+    font-size: 2rem;
     text-transform: uppercase;
+    margin-top: 80px;
 }
 .about-header-small{
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: x-small;
     margin-bottom: 100px;
 }
 
 .about-pic{
     margin-top: 20%;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
@@ -204,12 +205,12 @@ a {
 
 }
 .about-me-header{
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: 10px;
     font-family: 'Julius Sans One', sans-serif;
 }
 .about-me-more{
-    font-size: x-large;
+    font-size: x-small;
     letter-spacing: 2px;
     line-height: 2;
 }
@@ -220,7 +221,7 @@ a {
     text-align: center;
 }
 .skills-header{
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: 10px;
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -247,7 +248,7 @@ a {
     font-family: sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: larger;
+    font-size: x-small;
 }
 
 .about-contact{
@@ -255,7 +256,7 @@ a {
     margin-bottom: 100px;
 }
 .contact-header{
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: 10px;
     font-family: 'Julius Sans One', sans-serif;
 }
@@ -264,7 +265,7 @@ a {
 }
 .contact-content{
     font-family: 'Belleza', sans-serif;
-    font-size: x-large;
+    font-size: x-small;
 }
 
 .project-container{
@@ -280,17 +281,17 @@ a {
 }
 .project-heading{
     width: 100%;
-    height: 34%;
+    height: 250px;
     background-color: #15161e;
     color: white;
     font-family: 'Belleza', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
     border-bottom:  1px solid white;
 }
 
 .project-heading-desc{
-    font-size: large;
+    font-size: x-small;
     font-family: 'Julius Sans One', sans-serif;
     margin-bottom: 200px;
 }
@@ -301,7 +302,7 @@ a {
     font-family: 'Belleza', sans-serif;
     width: 100%;
     margin-top: 15px;
-    font-size: x-large;
+    font-size: small;
     text-align: center;
     display: none;
     transition-duration: .5s;
@@ -343,7 +344,7 @@ a {
     font-family: 'Belleza', sans-serif;
     width: 60%;
     margin-top: 15px;
-    font-size: x-large;
+    font-size: small;
     text-align: center;
 }
 .project-tech-info{
@@ -351,7 +352,7 @@ a {
 }
 
 .screenshots-heading{
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: 'Julius Sans One', sans-serif;
     color: white;
     text-transform: uppercase;
@@ -375,6 +376,10 @@ a {
     font-size: larger;
     color: white;
     cursor: pointer;
+    transition-duration: .5s;
+}
+.previous-project:hover {
+    color: #65626b;
 }
 .next-project{
     position: fixed;
@@ -384,4 +389,8 @@ a {
     font-size: larger;
     color: white;
     cursor: pointer;
+    transition-duration: .5s;
+}
+.next-project:hover {
+    color: #65626b;
 }
