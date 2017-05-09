@@ -399,3 +399,18 @@ a {
 .next-project:hover {
     color: #65626b;
 }
+
+.venture-bound{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #15161e;
+    color: white;
+}
+.venture-redirect{
+    font-family: 'Belleza', sans-serif;
+}
+.venture-link{
+    font-family: 'Julius Sans One', sans-serif;
+}

@@ -19,6 +19,7 @@ angular.module('myApp').service('mainService', function(){
             id: 1,
             next: 2,
             prev: 1,
+            uilink: 'venturebound',
             images: [
                 {
                     path: './images/home.png'

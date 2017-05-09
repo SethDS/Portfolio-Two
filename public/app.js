@@ -18,5 +18,9 @@ angular.module('myApp', ['ui.router']).config(function($urlRouterProvider, $stat
             templateUrl: './project.html',
             controller: 'projectCtrl'
         })
+        .state('venturebound', {
+            url: '/venturebound',
+            templateUrl: 'venturebound.html'
+        })
 
 });
