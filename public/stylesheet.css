@@ -376,7 +376,7 @@ a {
 .previous-project{
     position: fixed;
     top: 90%;
-    left: 200px;
+    left: 100px;
     font-family: 'Julius Sans One', sans-serif;
     font-size: larger;
     color: white;
@@ -389,7 +389,7 @@ a {
 .next-project{
     position: fixed;
     top: 90%;
-    right: 200px;
+    right: 100px;
     font-family: 'Julius Sans One', sans-serif;
     font-size: larger;
     color: white;
