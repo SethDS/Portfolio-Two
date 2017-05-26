@@ -100,6 +100,24 @@ angular.module('myApp').service('mainService', function(){
                     path: './images/portfolio-one/home-hover.png'
                 }
             ]
+        },
+        {
+            name: "Za'atari",
+            stack: 'Data Visualization',
+            description: "Display data about the population of Za'atari",
+            situation: 'I wanted to take the D3 skills I had been learning and try to display data about a significant issue in the world.',
+            task: 'I decided that I was going to see if I could start telling a small part of the story of millions of Syrian refugees.',
+            action: "I set up a page with Angular, then I set to work creating some data structures I could use from the UNHCR site for Za'atari.",
+            tech: ['HTML/CSS', 'D3', 'SVG', 'Angular', 'Node', 'Express'],
+            id: 4,
+            next: 4,
+            prev: 3,
+            link: 'https://zaatari-data.herokuapp.com/',
+            images: [
+                {
+                    path: './images/zaatari.png'
+                }
+            ]
         }
 
     ]
