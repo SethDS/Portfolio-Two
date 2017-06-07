@@ -89,7 +89,7 @@ angular.module('myApp').service('mainService', function(){
             action: 'I put together a full-stack app with Angular.  And then set to work using CSS to create some interesting effects to hold and attract attention.',
             tech: ['HTML/CSS', 'AngularJS', 'NodeJS', 'Express'],
             id: 3,
-            next: 3,
+            next: 4,
             prev: 2,
             link: 'https://sethds-portfolio-one.herokuapp.com/#!/',
             images: [
